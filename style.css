@@ -2,31 +2,37 @@
   padding: 0;
   margin: 0;
 }
-#main {
+body {
   height: 100vh;
   width: 100%;
-  background-color: rgb(44, 44, 61);
+  background-color: rgb(49, 49, 66);
+  font-family: 'Courier New', Courier, monospace;
 }
-.container {
+#main {
+  justify-content: center;
+  text-align: center;
+}
+#title {
+  padding-top: 5%;
+  padding-bottom: 10px;
+}
+h1, h2 {
+  color: #fff;
+}
+#img-div{
+  display: block;
+
+}
+#image {
   justify-content: center;
   align-items: center;
-}
-img {
-  padding-top: 5rem;
-  padding-right: 32rem;
-  padding-left: 32rem;
-  position: relative;
-}
-h1,
-h2,
-a,
-#tribute-info {
-  text-align: center;
-  color: white;
-  font-family: monospace;
-  padding-top: 1rem;
+  height: auto;
+  max-width: 100%;
+  border-radius: 15%;
 }
 #tribute-info {
-  padding-top: 5rem;
-  font-size: 20px;
+  color: #fff;
+}
+#tribute-link {
+  color: #fff;
 }
